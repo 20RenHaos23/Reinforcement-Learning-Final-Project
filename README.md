@@ -5,6 +5,19 @@
 ---
 使用Prioritized Experience Replay DQN訓練神經網路玩[2048遊戲](https://pypi.org/project/gym-2048/)
 
+檔案介紹
+---
+* main.py : Prioritized Experience Replay DQN主程式
+* env_2048.py : 2048遊戲主程式
+* train.py : 訓練模型程式碼
+* test.py : 測試模型程式碼
+* play_2048.py : 使用訓練好的權重檔玩2048遊戲，並且有遊戲畫面，並不是顯示在terminal端，執行後，點選遊戲視窗，隨意按鍵盤上的任意鍵，即會自動開始遊玩
+* model_weights : 資料夾，存放訓練過程中的權重檔
+
+訓練結果
+---
+![image](https://github.com/20RenHaos23/Reinforcement-Learning-Final-Project/blob/main/README_img/result.png)
+
 參考網址
 ---
 [什么是 DQN - PyTorch | 莫烦Python](https://mofanpy.com/tutorials/machine-learning/torch/intro-DQN/)
